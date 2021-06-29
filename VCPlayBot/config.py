@@ -7,7 +7,7 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 que = {}
-SESSION_NAME = getenv("SESSION_NAME", "BQA5w4J9bRHozUg0GMxX_QyR3qaK5xMr49Ee-shkFQ04i4KJ1G5lFSjskAOWUcQZHKS-TAVLu65Fy0eRdy-VeV4T4AxzGEUUoS1GckTS7Ns1kkoeSsmWMofJE3cuLV5MG_jT4uo9y4Dgl9J-oWPY_3tu9idrAJ6usxkZM7VvtcHnJ8IzroS92aIhpnlLdSSYr9dCu_RYlwZ3OLAGbndX9jq-BNjSRxWMOmu9VZ8tg06c_IfPFidEzzPPpLk6hILSv2JB7lZmyVFduCYyaBKe7NGUbiuiyxQ-si35s6kaRZSgVCE9_ZeefZ4ysMe7yVlnO2bMlwAOkL4lkNmic88k6SSYb6crEAA")
+SESSION_NAME = getenv("SESSION_NAME", ")
 BOT_TOKEN = getenv("BOT_TOKEN", "1728730929:AAGdj_UpflyimraBPr-MRHi8PtVMwKZMWr4")
 BOT_NAME = getenv("BOT_NAME", "Patricia")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "patricia_updates")
