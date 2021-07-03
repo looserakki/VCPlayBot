@@ -1,3 +1,4 @@
+
 from os import path
 
 from youtube_dl import YoutubeDL
@@ -29,4 +30,3 @@ def download(url: str) -> str:
         raise DurationLimitError(
             f"❌ Videos longer than {DURATION_LIMIT} minute(s) aren't allowed, the provided video is {duration} minute(s)"
         )
-    return path.join("downloads", f"{info['id']}.{info['ext']}")
