@@ -1058,7 +1058,7 @@ async def jiosaavn(client: Client, message_: Message):
     text = message_.text.split(" ", 1)
     query = text[1]
     res = lel
-    await res.edit(f"Searching 👀👀👀 for `{query}` on jio saavn")
+    await res.edit(f"Searching 👀👀👀 for `{query}` on **Spotify**")
     try:
         songs = await arq.saavn(query)
         if not songs.ok:
